@@ -1,0 +1,73 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/core/Configs.scala:30:34: parameter value site in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass CoreConfig extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/core/Configs.scala:30:40: parameter value here in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass CoreConfig extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/core/Configs.scala:30:46: parameter value up in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass CoreConfig extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/core/EventCounters.scala:41:21: parameter value debug in class EventCounters is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass EventCounters(debug: Boolean = false)(implicit p: Parameters) extends Module {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/core/Semaphore.scala:23:21: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/core/TensorGemm.scala:24:29: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport chisel3.experimental._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/core/TensorUtil.scala:234:26: parameter value strideFactor in class TensorDataCtrl is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    sizeFactor: Int = 1, strideFactor: Int = 1)(implicit p: Parameters) extends Module {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/dpi/VTASimDPI.scala:24:24: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport vta.util.config._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/dpi/VTASimDPI.scala:25:26: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport vta.interface.axi._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/dpi/VTASimDPI.scala:26:18: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport vta.shell._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/Configs.scala:22:16: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/Configs.scala:23:21: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport chisel3.util._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/Configs.scala:28:34: parameter value site in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass PynqConfig extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/Configs.scala:28:40: parameter value here in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass PynqConfig extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/Configs.scala:28:46: parameter value up in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass PynqConfig extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/Configs.scala:47:32: parameter value site in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass F1Config extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/Configs.scala:47:38: parameter value here in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass F1Config extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/Configs.scala:47:44: parameter value up in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass F1Config extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/Configs.scala:66:34: parameter value site in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass De10Config extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/Configs.scala:66:40: parameter value here in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass De10Config extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/Configs.scala:66:46: parameter value up in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass De10Config extends Config((site, here, up) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/SimShell.scala:26:18: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport vta.shell._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/shell/SimShell.scala:72:23: parameter value p in class VTASim is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass VTASim(implicit p: Parameters) extends MultiIOModule {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mlrobot/chisel_workspace/vta-hw/src/main/scala/vta/Configs.scala:22:16: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m24 warnings found[0m

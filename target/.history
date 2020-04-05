@@ -1,0 +1,3 @@
+run
+run vta.DefaultPynqConfig
+runMain vta.DefaultPynqConfig

@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mlrobot/chisel_workspace/vta-hw/src/main/resources/verilog,/home/mlrobot/chisel_workspace/vta-hw/target/scala-2.12/classes/verilog)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mlrobot/chisel_workspace/vta-hw/src/main/resources/verilog/VTASimDPI.v,/home/mlrobot/chisel_workspace/vta-hw/target/scala-2.12/classes/verilog/VTASimDPI.v)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mlrobot/chisel_workspace/vta-hw/src/main/resources/verilog/VTAMemDPI.v,/home/mlrobot/chisel_workspace/vta-hw/target/scala-2.12/classes/verilog/VTAMemDPI.v)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mlrobot/chisel_workspace/vta-hw/src/main/resources/verilog/VTAHostDPI.v,/home/mlrobot/chisel_workspace/vta-hw/target/scala-2.12/classes/verilog/VTAHostDPI.v)[0m
