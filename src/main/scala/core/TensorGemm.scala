@@ -99,8 +99,13 @@ class DotProduct(aBits: Int = 8, bBits: Int = 8, size: Int = 16) extends Module 
   })
   val s = Seq.tabulate(log2Ceil(size + 1))(i =>
     pow(2, log2Ceil(size) - i).toInt) // # of total layers
+  //s : List(16,8,4,2,1)
   val p = log2Ceil(size / 2) + 1 // # of adder layers
+  //p : 4
+  println("size: " + size)
+  println("p: " , p, " s: ", s)
   val m = Seq.fill(s(0))(Module(new MAC(aBits, bBits, cBits = 1))) // # of total vector pairs
+  //m: 16 multiplier
   val a = Seq.tabulate(p)(
     i =>
       Seq.fill(s(i + 1))(

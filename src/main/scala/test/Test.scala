@@ -34,7 +34,4 @@ class Test(implicit p: Parameters) extends MultiIOModule {
   sim_wait := sim_shell.sim_wait
   sim_shell.mem <> vta_shell.io.mem
   vta_shell.io.host <> sim_shell.host
-  println("VTA Test")
-  val test = 3
-  println(test)
 }

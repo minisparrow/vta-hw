@@ -51,7 +51,12 @@ object Launcher {
       Driver.execute(() => new AluVector, manager) {
         (c) => new TestAluVector(c)
       }
+    },
+  "dotproduct" -> { (manager: TesterOptionsManager) =>
+    Driver.execute(() => new DotProduct, manager) {
+      (c) => new DotProductTest(c)
     }
+  }
   )
 
   def main(args: Array[String]): Unit = {
