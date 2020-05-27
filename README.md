@@ -26,5 +26,21 @@ For contributors who wants to test a chisel module:
 
 - Running unit tests: `make test test_name=your_own test_name`
 
+unittest
+=============
+
+matrix vector multiply unittest
+```
+sbt 'test:runMain unittest.Launcher mvm'
+```
+
+
+
+alu unittest
+
+```
+sbt 'test:runMain unittest.Launcher alu'
+```
+
 
 
